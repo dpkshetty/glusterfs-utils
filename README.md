@@ -10,6 +10,10 @@ This can help in many ways:
   * No repetition of code (todays we have ansible, puppet, shell scripts and Go code implementing the same logic)
   * Easy to manage, fix issues, since its in 1 place/repo
 
+Optionally provide ability to choose the backend (shell script, python module, ansible playbook) for running the job.
+This can help choose the right backend for the right (maybe constrained) environment.
+
+
 # Common / Repetitive job examples:
   * Prepping a raw block device to be used as a brick
     * Input: raw block device (eg: /dev/sda)
